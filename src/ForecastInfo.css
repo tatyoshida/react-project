@@ -1,0 +1,40 @@
+.ForecastInfo {
+    text-align: center;
+}
+
+.ForecastDay {
+    border-radius: 12px;
+    background: #282d35;
+    padding-top: 12px;
+}
+
+.Date {
+    padding-bottom: 12px;
+}
+
+.WeatherForecast-temp {
+    padding-bottom: 18px;
+}
+
+.Temp-min {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+@media (max-width: 575.98px) {
+    .ForecastDay {
+      display: flex;
+      justify-content: center;
+    }
+    .Date {
+        padding-top: 6px;
+        padding-right: 18px;
+    }
+    .WeatherIcon canvas {
+        size: 80%;
+    }
+    .WeatherForecast-temp {
+        padding-top: 6px;
+        padding-left: 18px;
+    }
+}

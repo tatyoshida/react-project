@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Weather from "./Weather";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Weather defaultCity="San Martin de los Andes" />
+        <footer>
+          This project was coded by <a href="https://github.com/tatyoshida" target="_blank" rel="noreferrer">Tatyoshida</a> is <a href="https://github.com/tatyoshida/react-weather-app" target="_blank" rel="noreferrer">open-sorced</a> and hosted on <a href="https://curious-selkie-c7cdbb.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>.
+        </footer>
+      </div>
     </div>
   );
 }

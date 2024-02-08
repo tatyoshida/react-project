@@ -1,0 +1,102 @@
+.btn {
+    background: #00adb5 !important;
+  }
+  
+  .Weather h1,
+  .Weather h3 {
+    text-align: center;
+  }
+  
+  .Weather h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0;
+    padding: 30px 0 0;
+  }
+  
+  .Weather h3 {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 12px 0;
+  }
+  
+  .CurrentWeather {
+    font-family: 'Poiret One', sans-serif;
+  }
+  
+  .Description {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 0 0 20px;
+    }
+  
+  .Icon {
+    padding: 18px;
+  }
+    
+  .Temperature {
+    padding: 0 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+    
+  .TemperatureValue {
+    font-size: 80px;
+    font-weight: 500;
+  }
+    
+  .Unit {
+    float: right;
+    padding-top: 20px;
+    letter-spacing: 0.3em;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .Unit a {
+    text-decoration: none;
+    color:#56a2a7;
+  }
+    
+  .WeatherDetails {
+    padding: 20px 0;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .Pressure,
+  .Humidity,
+  .Wind {
+    padding-bottom: 18px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .Weather h1 {
+      font-size: 22px;
+    }
+    .Weather h3 {
+      font-size: 16px;
+    }
+    
+    .Description {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+    .Description span {
+      font-size: 14px;
+      padding-top: 45px;
+    }
+    .TemperatureValue {
+      font-size: 63px;
+      padding-left: 30px;    
+    }
+    .Unit {
+      font-size: 14px;
+    }
+    .WeatherDetails {
+      padding-top: 0;
+    }
+  }

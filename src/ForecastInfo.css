@@ -18,7 +18,7 @@
 
 .Temp-min {
     opacity: 0.6;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 @media (max-width: 575.98px) {
@@ -29,9 +29,6 @@
     .Date {
         padding-top: 6px;
         padding-right: 18px;
-    }
-    .WeatherIcon canvas {
-        size: 80%;
     }
     .WeatherForecast-temp {
         padding-top: 6px;
